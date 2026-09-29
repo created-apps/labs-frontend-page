@@ -396,6 +396,8 @@ details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
   .hiw{padding:28px 24px}
   .fit-list,.next,.apply-grid,.outcomes{grid-template-columns:1fr}
   .tl-labels{grid-template-columns:1fr}
+  /* the cohort cards below already carry the start/end dates */
+  .tl-labels>div:nth-child(n+3){display:none}
   .tl-svg{display:none}
   .deadline{padding:28px 26px}
   .step{padding:26px 72px 26px 26px}
