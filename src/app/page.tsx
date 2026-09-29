@@ -645,8 +645,7 @@ export default function Home() {
               <summary>Is there a refund policy?</summary>
               <div className="faq-a">
                 <p>
-                  We do not offer refunds, except under special circumstances. To request an exception, please email{"
-                  "}
+                  We do not offer refunds, except under special circumstances. To request an exception, please email{" "}
                   <a href="mailto:info@create-ed.in">info@create-ed.in</a>.
                 </p>
               </div>
