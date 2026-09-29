@@ -57,11 +57,10 @@ export default function Home() {
               />
               <div className="hero-scrim" />
               <div className="hero-content">
-                <span className="hero-eyebrow">Applications open Sep 15 &middot; 15 seats</span>
+                <span className="hero-eyebrow">Applications open Sep 15 &middot; Only 16 seats per cohort</span>
                 <h1>CreatED Labs</h1>
                 <p className="sub">
-                  A 10-week chemical engineering, material science and biochemistry program where you build an
-                  original prototype in a real laboratory &mdash; and write the paper to go with it.
+                  Original Research. Applied Laboratory Exploration. Science-backed Innovation.
                 </p>
                 <div className="hero-btns">
                   <a className="pill lg apply" href={APPLY_URL} target="_blank" rel="noopener noreferrer">
@@ -83,10 +82,12 @@ export default function Home() {
           <div className="grey-panel" data-anim="fade">
             <div>
               <p className="body">
-                Join <strong>CreatED Labs</strong> &mdash; work one-on-one with an IIT mentor to learn deep-research
-                method, design original experiments, develop your prototype in a lab, and write a publishable
-                academic research paper. Cohort sessions begin in December and the program completes by
-                mid-February. Apply <strong>individually or in teams of two</strong>.
+                Join <strong>CreatED Labs</strong> &mdash; a 10-week chemical engineering, material science and
+                biochemistry program where students develop original biochemistry, material science or chemical
+                engineering prototypes. Work one-on-one with an IIT mentor to learn deep-research work, design
+                original experiments, develop your prototype in a lab and write a publishable academic research
+                paper. Cohort sessions begin in June, and the program is completed by the end of August and the
+                first week of September. Apply <strong>individually or in teams of two</strong>.
               </p>
             </div>
             <dl className="stat-grid">
@@ -94,13 +95,13 @@ export default function Home() {
                 <dt>Duration</dt>
                 <dd>
                   10 weeks
-                  <small>Dec &ndash; mid-Feb</small>
+                  <small>Jun &ndash; Sep 2027</small>
                 </dd>
               </div>
               <div className="stat stat-blue">
                 <dt>Cohort</dt>
                 <dd>
-                  15<small>students or pairs</small>
+                  16<small>seats per cohort</small>
                 </dd>
               </div>
               <div className="stat stat-green">
@@ -178,22 +179,32 @@ export default function Home() {
                 <div className="tl-note">Applications open</div>
               </div>
               <div>
-                <div className="tl-date">Oct 30, 2026</div>
+                <div className="tl-date">Apr 7, 2027</div>
                 <div className="tl-note">Registrations close</div>
               </div>
               <div>
-                <div className="tl-date">Dec, week 1</div>
-                <div className="tl-note">Cohort sessions start</div>
+                <div className="tl-date">Jun 12 &amp; Jul 3, 2027</div>
+                <div className="tl-note">Cohort 1 &amp; Cohort 2 start</div>
               </div>
               <div>
-                <div className="tl-date">Mid-February</div>
-                <div className="tl-note">Program ends</div>
+                <div className="tl-date">Aug 20 &amp; Sep 12, 2027</div>
+                <div className="tl-note">Cohort 1 &amp; Cohort 2 end</div>
               </div>
+            </div>
+          </div>
+          <div className="cohorts" data-anim="fade">
+            <div className="cohort">
+              <span className="cohort-name">Summer Cohort 1</span>
+              <span className="cohort-dates">12th June &ndash; 20th August 2027</span>
+            </div>
+            <div className="cohort">
+              <span className="cohort-name">Summer Cohort 2</span>
+              <span className="cohort-dates">3rd July &ndash; 12th September 2027</span>
             </div>
           </div>
           <p className="rolling" data-anim="fade">
             Admission runs on a <strong>rolling basis</strong> &mdash; you&apos;ll be notified whether you&apos;ve
-            been accepted by mid-November at the latest.
+            been accepted by mid-April 2027 at the latest.
           </p>
         </div>
       </section>
@@ -205,41 +216,43 @@ export default function Home() {
             Program <span className="b">Structure</span>
           </h2>
           <p className="body" data-anim="fade" style={{ maxWidth: "78ch", marginBottom: 26 }}>
-            Over 10 weeks you&apos;ll work with an expert IIT mentor to develop a project in biochemistry, material
-            science or chemical engineering. Through cohort sessions and one-on-one mentorship you&apos;ll shape a
-            research question and write it up as an academic paper. The cohort moves through three phases.
+            CreatED Labs is a 10-week program where you&apos;ll work with an expert IIT mentor to develop a project
+            in biochemistry, material science or chemical engineering. Through cohort sessions and one-on-one
+            mentorship you&apos;ll shape a research question and write it up as an academic paper under the
+            guidance of a PhD mentor. The cohort moves through three phases.
           </p>
           <div className="phases">
             <div className="phase" data-anim="fade">
               <div className="phase-top">
-                <span className="phase-wk">Week 1 &ndash; 4 &middot; December</span>
+                <span className="phase-wk">Week 1 &ndash; 4 &middot; June &ndash; July</span>
                 <h3>Laying Foundations</h3>
                 <p>
-                  Individual theory sessions around your availability, plus a cohort session every other Sunday on
-                  research writing &mdash; morning or evening slot. You&apos;ll complete your secondary research
-                  review, introduction and methodology.
+                  Individual theory sessions scheduled around your availability, plus a cohort session on Sundays
+                  once every two weeks focused on research writing &mdash; attend the morning or evening slot. You&apos;ll
+                  complete your secondary research review, introduction and methodology, drafting as you go, with
+                  your mentor available to answer questions in real time.
                 </p>
               </div>
               <div className="phase-band">Literature review &amp; methodology</div>
             </div>
             <div className="phase" data-anim="fade">
               <div className="phase-top">
-                <span className="phase-wk">Week 4 &ndash; 8 &middot; January</span>
+                <span className="phase-wk">Week 4 &ndash; 8 &middot; July &ndash; August</span>
                 <h3>Experiment Design &amp; Build</h3>
                 <p>
-                  Continuing individual sessions with your mentor, plus a one-day visit to the laboratory facility in
-                  Jaipur to run hands-on experiments and collect real data for your project.
+                  Continuing individual mentored sessions with your partner, plus a one-day visit to a laboratory
+                  facility in Jaipur to run hands-on experiments and collect real data.
                 </p>
               </div>
               <div className="phase-band">Jaipur lab visit</div>
             </div>
             <div className="phase" data-anim="fade">
               <div className="phase-top">
-                <span className="phase-wk">Week 8 &ndash; 10 &middot; February</span>
-                <h3>Writing &amp; Closing Report</h3>
+                <span className="phase-wk">Week 8 &ndash; 10 &middot; August &ndash; September</span>
+                <h3>Research Writing &amp; Closing Report</h3>
                 <p>
-                  After the lab visit you&apos;ll continue work on your academic paper, writing your conclusions and
-                  formatting the paper ready for submission.
+                  After your lab visit you&apos;ll continue work on your academic paper, moving on to writing your
+                  conclusions and formatting your paper.
                 </p>
               </div>
               <div className="phase-band">Formatted research paper</div>
@@ -329,7 +342,7 @@ export default function Home() {
               <div className="oc-body">
                 <p>Covering your literature review, methods, testing, results and conclusion.</p>
               </div>
-              <div className="oc-band">An academic research paper</div>
+              <div className="oc-band">A supporting academic research paper</div>
             </div>
             <div className="oc" data-anim="fade">
               <div className="oc-ico">
@@ -371,8 +384,8 @@ export default function Home() {
               </div>
               <div className="oc-body">
                 <p>
-                  Your mentor helps you shortlist, prepare and submit entries to two research competitions your
-                  project is a strong fit for.
+                  Your mentor helps you prepare and submit entries to two research competitions:{" "}
+                  <strong>IRIS</strong> and <strong>CREST</strong>.
                 </p>
               </div>
               <div className="oc-band">Application support for 2 competitions</div>
@@ -388,8 +401,8 @@ export default function Home() {
             Application <span className="b">Process</span>
           </h2>
           <p className="body" style={{ maxWidth: "74ch", marginBottom: 26 }}>
-            We&apos;re looking for interested, enthusiastic students who value learning. Apply through the form
-            &mdash; it takes four things.
+            We&apos;re looking for the right fit of interested, enthusiastic students who value learning. Apply now
+            through the Google form.
           </p>
           <div className="apply-grid">
             <div className="ap">
@@ -400,23 +413,26 @@ export default function Home() {
             <div className="ap">
               <span className="ap-n">2</span>
               <h3>Already have an idea?</h3>
-              <p>Having your own idea isn&apos;t necessary &mdash; but if you have an interest, we&apos;d love to help you bring it to life.</p>
+              <p>Having your own idea isn&apos;t necessary &mdash; but if you already have an interest, we&apos;d love to help you bring it to life.</p>
             </div>
             <div className="ap">
               <span className="ap-n">3</span>
               <h3>Solo or in pairs</h3>
-              <p>Apply individually, or team up with a partner to work on the same project together.</p>
+              <p>
+                Apply individually, or team up with a partner to work on the same project together. If you apply
+                individually, we&apos;ll pair you with a partner.
+              </p>
             </div>
             <div className="ap">
               <span className="ap-n">4</span>
               <h3>Tell us why</h3>
-              <p>We want to know more about what motivates you.</p>
+              <p>We want to know more about your motivations.</p>
             </div>
           </div>
           <div className="deadline">
             <p>
               Seats are filled on a rolling basis. Early applications have a real advantage.{" "}
-              <strong>Apply before 30th October, 2026</strong>
+              <strong>Apply before 7th April, 2027</strong>
             </p>
             <a className="pill yellow lg" href={APPLY_URL} target="_blank" rel="noopener noreferrer">
               Apply Now
@@ -481,18 +497,18 @@ export default function Home() {
               <div className="faq-a">
                 <p>
                   <strong>No.</strong> CreatED Labs is designed to take you from a rough idea to a formatted academic
-                  paper. Your mentor guides you through every stage of the research process &mdash; we only ask that
-                  you bring curiosity and commitment.
+                  paper. Your mentor guides you through every stage of the research process. We only want you to bring
+                  curiosity and commitment.
                 </p>
               </div>
             </details>
             <details>
-              <summary>Is CreatED Labs only for people interested in biology?</summary>
+              <summary>Is CreatED Labs only for people with interest in biology?</summary>
               <div className="faq-a">
                 <p>
-                  No. CreatED Labs is not a pure biology research program. It supports projects for students
-                  interested in <strong>life sciences, chemistry, new material development, chemical engineering and
-                  biochemistry</strong>.
+                  No. CreatED Labs is not a pure biology research program. It will help develop projects for students
+                  interested in <strong>Life Sciences, Chemistry, New Material Development, Chemical Engineering and
+                  Biochemistry</strong>.
                 </p>
               </div>
             </details>
@@ -500,9 +516,9 @@ export default function Home() {
               <summary>How is CreatED Labs different from the Research and Build Program?</summary>
               <div className="faq-a">
                 <p>
-                  CreatED Labs is a shorter, individually mentored research program structured over{" "}
-                  <strong>10 weeks</strong>, designed specifically for Indian high school students in{" "}
-                  <strong>Grades 8&ndash;12</strong> with an interest in biology, chemistry or material sciences.
+                  CreatED Labs is a shorter, personally mentored research program structured over <strong>10
+                  weeks</strong>, specifically designed for Indian high school students from <strong>Grades
+                  8&ndash;12</strong> with an interest in Biology, Chemistry or Material Sciences.
                 </p>
               </div>
             </details>
@@ -511,14 +527,17 @@ export default function Home() {
               <div className="faq-a">
                 <p>
                   Yes. You can apply individually or in pairs. If you apply as a pair, you&apos;ll work on the same
-                  project together and share sessions with your mentor.
+                  project together and share sessions with your mentor. If applying individually, we&apos;ll pair you
+                  with a partner who is keen on working on the same project topic.
                 </p>
               </div>
             </details>
             <details>
-              <summary>Can I apply solo and be matched with someone to work in a pair?</summary>
+              <summary>Can I apply solo, and be matched with someone to do the project in a pair?</summary>
               <div className="faq-a">
-                <p>Yes, you can &mdash; as long as both students are willing to work together on the same project.</p>
+                <p>
+                  Yes, you can &mdash; as long as both students are willing to work together on the same project.
+                </p>
               </div>
             </details>
             <details>
@@ -536,8 +555,8 @@ export default function Home() {
               <div className="faq-a">
                 <p>
                   You&apos;ll attend individual theory sessions with your mentor, scheduled around your own
-                  availability, plus a cohort session <strong>every other Sunday</strong> &mdash; morning or evening
-                  &mdash; focused specifically on research writing.
+                  availability, plus a cohort session <strong>every other Sunday</strong> (morning or evening) focused
+                  specifically on research writing.
                 </p>
               </div>
             </details>
@@ -545,8 +564,9 @@ export default function Home() {
               <summary>What happens during the Jaipur lab trip?</summary>
               <div className="faq-a">
                 <p>
-                  Between weeks 4 and 8 you&apos;ll travel to our Jaipur lab facility for a weekend to run hands-on
-                  experiments and collect data. This is where your research moves from theory into testing.
+                  Between Week 4 and 8, you&apos;ll travel to our Jaipur lab facility for a weekend to run hands-on
+                  experiments and collect data for your project. This is where your research moves from theory into
+                  testing.
                 </p>
               </div>
             </details>
@@ -554,9 +574,9 @@ export default function Home() {
               <summary>What will I actually walk away with?</summary>
               <div className="faq-a">
                 <p>
-                  A formulated and tested prototype, and a completed academic research paper covering your
-                  literature review, methods, testing, results and conclusion &mdash; ready for publication
-                  submissions, competitions, or your academic portfolio.
+                  A formulated and tested prototype, and a completed academic research paper covering your literature
+                  review, methods, testing, results and conclusion &mdash; that you can use for publication
+                  submissions, competition applications, or your academic portfolio.
                 </p>
               </div>
             </details>
@@ -565,8 +585,8 @@ export default function Home() {
               <div className="faq-a">
                 <p>
                   Your program fee covers <strong>mentorship, theory sessions, cohort sessions, and access to the
-                  Jaipur laboratory weekend</strong>. Additional costs may include materials specific to your
-                  project, travel to Jaipur, and publishing costs depending on the journal you apply to.
+                  Jaipur laboratory weekend</strong>. Additional costs may include materials specific to your project,
+                  travel expenses to Jaipur, and publishing costs depending on the journal you want to apply to.
                 </p>
               </div>
             </details>
@@ -574,9 +594,9 @@ export default function Home() {
               <summary>How does the application and selection process work?</summary>
               <div className="faq-a">
                 <p>
-                  You&apos;ll share your academic grades, current subjects, and your project idea if you have one
-                  (it isn&apos;t mandatory). Seats are offered on a rolling, first-come-first-served basis, so
-                  applying early gives you a real advantage. Questions? Reach out at{" "}
+                  You&apos;ll share your academic grades, current subjects, and your project idea (if you have one
+                  &mdash; it isn&apos;t mandatory). Seats are offered on a rolling, first-come-first-served basis, so
+                  applying early gives you a real advantage. In case of any questions, feel free to reach out at{" "}
                   <a href="mailto:labs@create-ed.in">labs@create-ed.in</a>.
                 </p>
               </div>
@@ -585,8 +605,8 @@ export default function Home() {
               <summary>How many seats are available?</summary>
               <div className="faq-a">
                 <p>
-                  Just <strong>15 seats</strong> for this cohort &mdash; kept deliberately small so every student
-                  gets real 1:1 mentorship time.
+                  Just <strong>16 seats</strong> for each cohort &mdash; designed to stay small so every student gets
+                  real 1:1 mentorship time.
                 </p>
               </div>
             </details>
@@ -594,9 +614,10 @@ export default function Home() {
               <summary>What if I don&apos;t have a fully formed idea yet?</summary>
               <div className="faq-a">
                 <p>
-                  That&apos;s completely fine. Tell us your domain of interest and a starting idea, and your mentor
-                  will help you refine it into a workable research question before your sessions begin. For any
-                  questions, reach out at <a href="mailto:labs@create-ed.in">labs@create-ed.in</a>.
+                  That&apos;s completely fine. You&apos;ll tell us your domain of interest and a starting idea, and
+                  your mentor helps you refine it into a workable research question before you start your sessions.
+                  For any questions, feel free to reach out at{" "}
+                  <a href="mailto:labs@create-ed.in">labs@create-ed.in</a>.
                 </p>
               </div>
             </details>
@@ -605,7 +626,7 @@ export default function Home() {
               <div className="faq-a">
                 <p>
                   Yes &mdash; many students choose to pursue publication after completing their paper. Publication
-                  costs are separate from the program fee and depend on the journal.
+                  costs are separate from the program fee and will depend on the journal.
                 </p>
               </div>
             </details>
@@ -614,8 +635,9 @@ export default function Home() {
               <div className="faq-a">
                 <p>
                   Sunday cohort sessions are <strong>mandatory</strong> and cannot be missed. They&apos;re scheduled
-                  in both a morning and an evening slot, so you can opt for whichever suits your availability. If
-                  you&apos;re still unable to attend, we&apos;ll send you the recording after the session.
+                  in a morning and an evening slot, so you can opt for whichever is better suited to your
+                  availability. If you&apos;re still unable to attend, we&apos;ll send you the recording after the
+                  session is completed.
                 </p>
               </div>
             </details>
@@ -623,7 +645,8 @@ export default function Home() {
               <summary>Is there a refund policy?</summary>
               <div className="faq-a">
                 <p>
-                  We do not offer refunds, except under special circumstances. To request an exception, please email{" "}
+                  We do not offer refunds, except under special circumstances. To request an exception, please email{"
+                  "}
                   <a href="mailto:info@create-ed.in">info@create-ed.in</a>.
                 </p>
               </div>
@@ -633,8 +656,8 @@ export default function Home() {
               <div className="faq-a">
                 <p>
                   Click Apply Now and fill out our application form &mdash; share your academic details and project
-                  idea, then submit. You&apos;ll receive a confirmation email immediately, with next steps and
-                  timelines to follow.
+                  idea, then submit the form. You&apos;ll receive a confirmation email immediately, with next steps
+                  and timelines to follow.
                 </p>
               </div>
             </details>

@@ -210,6 +210,18 @@ p{margin:0}
   padding:28px 34px;font-size:1.1875rem;font-weight:300;color:#6b5802;line-height:1.65;
 }
 .rolling strong{font-weight:600;color:var(--ink)}
+.cohorts{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:34px}
+.cohort{
+  display:flex;flex-direction:column;gap:6px;border:2px solid var(--ink);
+  border-radius:var(--r-card);padding:24px 30px;
+}
+.cohort-name{font-size:.875rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
+.cohort-dates{font-size:1.375rem;font-weight:700;color:var(--ink);letter-spacing:-.01em}
+@media (max-width:750px){
+  .cohorts{grid-template-columns:1fr;gap:14px;margin-top:22px}
+  .cohort{padding:20px 22px}
+  .cohort-dates{font-size:1.125rem}
+}
 
 /* ===== 5 . phases ===== */
 .phases{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
